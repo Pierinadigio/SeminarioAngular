@@ -15,10 +15,10 @@ Este repositorio contiene el código fuente del proyecto "Patitas Serranas", un 
 
 ## Funcionalidades principales
 
-Exploración de Productos: Los usuarios pueden navegar por diferentes categorías de productos y ver detalles como descripción, precio y disponibilidad.
-Productos Destacados: Lista semanal de productos recomendados, con precios especiales y alta calidad.
-Lista de Compras: Permite a los usuarios agregar productos a "Mi compra" y gestionar las cantidades antes de proceder al pago.
-Servicio API: La aplicación consume un servicio de API proporcionado por MockAPI para la gestión de datos de productos.
+- Exploración de Productos: Los usuarios pueden navegar por diferentes categorías de productos y ver detalles como descripción, precio y disponibilidad.
+- Productos Destacados: Lista semanal de productos recomendados, con precios especiales y alta calidad.
+- Lista de Compras: Permite a los usuarios agregar productos a "Mi compra" y gestionar las cantidades antes de proceder al pago.
+- Servicio API: La aplicación consume un servicio de API proporcionado por MockAPI para la gestión de datos de productos.
 
 ## Tecnologias utilizadas
 
