@@ -8,10 +8,10 @@ Este repositorio contiene el código fuente del proyecto "Patitas Serranas", un 
 
 ## Autor 
 
-Nombre: Pierina Di Giorgio
-DNI: 27.143.886
-E-mail: pierinadigiorgio@gmail.com
-TUDAI - Sede Tandil
+- Nombre: Pierina Di Giorgio
+- DNI: 27.143.886
+- E-mail: pierinadigiorgio@gmail.com
+- TUDAI - Sede Tandil
 
 ## Funcionalidades principales
 
@@ -22,12 +22,13 @@ Servicio API: La aplicación consume un servicio de API proporcionado por MockAP
 
 ## Tecnologias utilizadas
 
-Angular CLI versión 18.0.7
-Node.js
-npm
-API de MockAPI
+- Angular CLI versión 18.0.7
+- Node.js
+- npm
+- API de MockAPI
 
 ## Codigo y Ejecucion:
-Stackblitz
-GitHub
+
+- Stackblitz
+- GitHub
 
