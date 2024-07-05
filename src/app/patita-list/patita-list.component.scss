@@ -1,0 +1,32 @@
+h1 {
+    color: #ff6347;
+}
+
+.agotado {
+    border: 2px solid rgb(203, 6, 6);
+}
+
+table {
+  border-spacing: 0; 
+}
+
+td {
+    vertical-align: middle;
+    font-size: small;
+    padding: 5px;
+}
+.table-header {
+    background-color: #d4b620; 
+    color: #ec6f6f; 
+    text-align: center; 
+  }
+.btn-custom {
+    background-color: #ff6347; 
+    color: #ffffff; 
+    border-color: #ff6347; 
+  }
+  
+  .btn-custom:hover {
+    background-color: #d84315; 
+    border-color: #d84315;
+  }

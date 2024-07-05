@@ -1,0 +1,32 @@
+<h1>Productos Destacados</h1>
+
+<table class="table text-center">
+    <thead>
+        <tr class="table-header">
+            <th></th>
+            <th>Descripcion</th>
+            <th>Categoria</th>
+            <th>Precio</th>
+            <th>Cantidad</th>
+            <th>Agregar a mi compra</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let producto of productos" [ngClass]="{'agotado':producto.stock==0}" class="agotado">
+            <td><img whith= "80" class="img-thumbnail" [src]="producto.image" [alt]="producto.id"></td> 
+            <td>{{producto.description | uppercase }}</td>
+            <td>{{producto.category}}</td>
+            <td>{{producto.price | currency}}</td>
+            <td>
+                @if (producto.stock > 0) {
+                    <app-input-integer [(quantity)]="producto.quantity" [max]="producto.stock" (maxReached)="maxReached($event)"></app-input-integer>
+                }
+                @else {
+                    <span>SIN STOCK</span>}
+            </td>
+            <td>
+                <button class="btn btn-primary btn-custom" *ngIf="producto.stock != 0" (click)="addToCart(producto)">Agregar</button>
+            </td>
+        </tr>
+    </tbody>
+</table>

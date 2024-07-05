@@ -1,0 +1,21 @@
+<div class="compras" >
+    <h3>Mi compra</h3>
+    <ul class="">
+        <li *ngFor="let producto of cartList$ | async">
+            <div>
+                <span>{{producto.description}}</span>
+            </div>
+            <div>
+                <span>Precio: {{producto.price | currency}}</span>
+                <span>Cantidad: {{producto.quantity}}</span>
+            </div>
+            <div>
+                <span>Sub Total: {{producto.price * producto.quantity | currency}}</span>
+            </div>
+        </li>
+    </ul>
+    <div class="total-pago">
+        <p>Total: {{ getTotal() | currency }}</p>
+        <button class="btn btn-pago">Ir a pagar</button>
+    </div>
+</div>

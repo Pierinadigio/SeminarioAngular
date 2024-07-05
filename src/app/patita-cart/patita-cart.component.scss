@@ -1,0 +1,27 @@
+
+h3 {
+    color: rgba(219, 81, 7, 0.678);
+}
+
+.compras{
+    border: 2px solid rgba(219, 81, 7, 0.678); 
+    padding: 10px;
+    max-width: 320px;
+    margin-left: 10px;
+}
+
+.total-pago {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%; 
+    margin-top: 10px; 
+}
+
+.total-pago .btn-pago {
+    padding: 10px 20px;
+    background-color: rgba(219, 81, 7, 0.678);
+    color: #e8e2e2;
+    border: none;
+    cursor: pointer;
+}
